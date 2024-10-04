@@ -1,0 +1,3 @@
+src/main/resources/image-vtv-firebase.json
+src/main/resources/notification-vtv-firebase.json
+src/main/resources/application.properties (lines 19, 29, 90, 95)

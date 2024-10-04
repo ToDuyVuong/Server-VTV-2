@@ -1,0 +1,12 @@
+version: '3'
+services:
+  my-service:
+    container_name: server-vtv-container
+    image: server-vtv-image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - server-vtv-volume:/path/in/container
+volumes:
+  server-vtv-volume:
